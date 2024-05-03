@@ -6,7 +6,7 @@ typedef struct CStashTag
     int size;     // 每个存储空间的大小（以字节为单位）
     int quantity; // 当前分配的存储空间数量
     int next;     // 下一个空闲的存储位置索引
-    // Dynamically allocated 的字节数组，用来实际存放数据
+    // Dynamically allocated 的字节数组, 用来实际存放数据
     unsigned char *storage;
 } CStash;
 
